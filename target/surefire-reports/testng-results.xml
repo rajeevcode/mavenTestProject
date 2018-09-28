@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33989" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:03:08Z">
+    <groups>
+      <group name="SUV">
+        <method signature="TestNG_Grouping.BMWX3()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="BMWX3" class="test.execution.TestNG_Grouping"/>
+      </group> <!-- SUV -->
+      <group name="Audi">
+        <method signature="TestNG_Grouping.AudiA6()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="AudiA6" class="test.execution.TestNG_Grouping"/>
+      </group> <!-- Audi -->
+      <group name="BMW">
+        <method signature="TestNG_Grouping.BMW3Series()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="BMW3Series" class="test.execution.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.BMWX3()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="BMWX3" class="test.execution.TestNG_Grouping"/>
+      </group> <!-- BMW -->
+      <group name="Sedan">
+        <method signature="TestNG_Grouping.AudiA6()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="AudiA6" class="test.execution.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.BMW3Series()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="BMW3Series" class="test.execution.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.HondaAccord()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="HondaAccord" class="test.execution.TestNG_Grouping"/>
+      </group> <!-- Sedan -->
+      <group name="Honda">
+        <method signature="TestNG_Grouping.HondaAccord()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="HondaAccord" class="test.execution.TestNG_Grouping"/>
+      </group> <!-- Honda -->
+    </groups>
+    <test name="Command line test" duration-ms="33989" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:03:08Z">
+      <class name="test.execution.TestNG_TestSuite">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.execution.TestNG_TestSuite@2096442d]" name="beforeClass" is-config="true" duration-ms="27597" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:test.execution.TestNG_TestSuite@2096442d]" name="fillBasicInfo" duration-ms="5348" started-at="2018-09-28T02:03:02Z" finished-at="2018-09-28T02:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillBasicInfo -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.execution.TestNG_TestSuite@2096442d]" name="afterClass" is-config="true" duration-ms="930" started-at="2018-09-28T02:03:07Z" finished-at="2018-09-28T02:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.execution.TestNG_TestSuite -->
+      <class name="test.execution.TestNG_Grouping">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="beforeClass" is-config="true" duration-ms="25" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AudiA6()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="AudiA6" duration-ms="3" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AudiA6 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BMW3Series()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="BMW3Series" duration-ms="2" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMW3Series -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BMWX3()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="BMWX3" duration-ms="27" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMWX3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="HondaAccord()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="HondaAccord" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HondaAccord -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.execution.TestNG_Grouping@2c9f9fb0]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-09-28T02:02:34Z" finished-at="2018-09-28T02:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.execution.TestNG_Grouping -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

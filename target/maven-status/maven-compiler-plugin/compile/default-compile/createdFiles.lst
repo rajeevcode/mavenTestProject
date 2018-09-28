@@ -1,0 +1,5 @@
+pageClasses/searchPageFactory.class
+pageClasses/SearchPageFactoryObjetRepository.class
+com/expedia/flightsBooking/Test.class
+pageClasses/TestSuiteBase.class
+pageClasses/SearchPage.class
